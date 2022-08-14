@@ -1,0 +1,34 @@
+header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    font-size: 1.8rem;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+header .wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+header .wrapper .logo{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .wrapper .menus ul{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+header .wrapper .menus ul li{
+    margin-left: 56px;
+}
+

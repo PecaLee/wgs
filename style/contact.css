@@ -1,0 +1,79 @@
+.greyOut{
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.displayNone{
+    display: none;
+}
+
+.contact{
+    width: 100%;
+    max-width: 620px;
+    padding: 3.2rem 2.4rem 1.6rem 2.4rem;
+    background-color: #fff;
+    border-radius: 16px;
+}
+
+.contact p{
+    font: 'Noto Sans KR', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.contact_title{
+    font-size: 4rem;
+    margin-left: 32px;
+    margin-bottom: 56px;
+    font-family: 'Roboto Condensed';
+}
+
+.contact_title::before{
+    content: url("/imgs/title_before.png");
+    position: absolute;
+    margin-top: -24px;
+    margin-left: -24px;
+}
+
+.contact_title::after{
+    content: "";
+    width: 80px;
+    border-bottom: #003F83 solid 3px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: -148px;
+}
+
+.blockTitle{
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.contactBlock{
+    margin-bottom: 4rem;
+}
+
+.contactBlock:last-child{
+    margin-bottom: 0.4rem;
+}
+
+.contactBlock:last-child p{
+    padding: 0;
+}
+
+.t{
+    display: flex;
+    justify-content: space-between;
+}
+
+.x{
+    cursor: pointer;
+}

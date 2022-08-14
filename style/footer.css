@@ -1,0 +1,56 @@
+footer{
+    background-color: #003F83;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 300;
+    font-family: 'Noto Sans KR', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 72px 0 48px 0;
+    margin-top: 120px;
+}
+
+footer .wrapper  p{
+    padding: 0;
+}
+
+footer .footerContact .ltd {
+    margin-bottom: .8rem;
+    margin-top: 1.6rem;
+}
+
+footer .footerContact .address {
+    margin-bottom: 1.6rem;
+}
+
+footer .wrapper .text{
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright{
+    text-align: right;
+    font-size: 1.1rem;
+}
+
+footer a{
+    color: #fff;
+}
+
+footer .awards{
+    display: flex;
+    align-items: center;
+}
+
+footer .award{
+    margin-left: 3.2rem;
+}
+
+footer .award img{
+    margin-right: 1.6rem;
+}
+
+footer .awards .award .awardDetail{
+    display: flex;
+    align-items: center;
+}
